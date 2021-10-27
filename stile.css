@@ -1,0 +1,51 @@
+html{scroll-behavior: smooth; margin: 0;}
+#bodyindex{background: linear-gradient(to right, white, #00FF6C) no-repeat fixed; margin: 0;}
+#nav1{box-shadow: .1em .2em 0.1em; border-bottom-left-radius: 15px;border-bottom-right-radius: 15px;
+    background-color: rgb(86, 129, 123) ; height: 120px;width: 100%; display: flex; top: 0;left: 0; 
+    transition: from right .7s 2s; position: fixed; justify-content: space-around; list-style: none;font-family:'Poppins', sans-serif;}
+#logo {width: 130px; margin-left: 60px;}
+#logo :hover{box-shadow: .75em .75em 1em; color: rgb(139, 240, 130);}
+menu.inline{border: 1px transparent dashed;margin: 0px; top: -30px; }
+
+div a{text-decoration: none;border:1px transparent dashed; margin-left: 150px;}
+.menufonts{color: white; font-size: 60px;   
+     transition-duration: 0.3s;}
+     .menufonts:hover{text-decoration: inline; width: 200px; 
+    background-color:rgb(185, 255, 191); border: 1px transparent dashed; border-radius: 15px; transition-delay: 0.1s; color: grey; }
+   #info{border: 1px transparent dashed;width: 70px;}
+#info :hover{ background-color: #3eec9b; border-radius: 150px;}
+#footer1{background-color: #111;height: 170px; margin-top: 100%; }
+#footer1 p{font-family:'Poppins', sans-serif ; font-size: 20px;color: white;text-align: center;padding: 40px;}
+#footer2{background-color: black;height: 30px;margin: 0;left: 0;right: 0; }
+#footer2 p{color: white;text-align: center; margin: 0; margin-bottom: 0; font-family: 'Times New Roman', Times, serif;}
+#freccia{width: 85px; margin-top: 10px;}
+#freccia2{width: 85px;}
+.freccie :hover{background-color: whitesmoke;border: 1px solid transparent;border-radius: 50px;}
+#social{text-align: center;}
+#bodyblog{background-color: lightblue;}
+#pblog{ color: white;
+    
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: lightblue;
+    font-size: 90px ;
+    text-align: center;
+    border: 2px transparent;
+    margin-top: 400px;
+    transition: 2s;}
+    #h3news{font-family: 'Poppins' , sans-serif;font-weight: bolder;font-size: 100px;
+margin-top: 8%;}
+#buttonnews{font-family: 'Whoopass' , sans-serif; width: 100px; border: 3px solid black;border-radius: 10px;text-decoration: none;}
+#tornasu{
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    display: none;
+    padding:10px;
+    }
+    #container {
+        margin: 0 auto;
+        max-width: 500px;
+        border: 1px dashed transparent;
+        padding: 20px;
+        }
+       

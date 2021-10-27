@@ -1,0 +1,82 @@
+body{
+    background-color: blanchedalmond;font-family: Verdana, Geneva, Tahoma, sans-serif;}
+#titlecorsi{
+    font-size: 60px;
+    font-family: 'Poppins', sans-serif; 
+    border: 1px solid transparent;
+    margin: 0;
+    margin-left: 100px;
+    margin-top: -87px;}
+#tornaindietro{
+width: 90px;
+    color: black;
+    background-color: transparent;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    text-decoration: none;
+font-family: "Helvetica Neue",Helvetica,Arial,sans-serif }
+nav{
+    font-family:  'Poppins', sans-serif;
+    background-image: url(img/Coast_Little_girls_Clouds_532086_1920x1080.jpg); width: 100%; margin: 0;
+    border: 2px solid transparent;
+    border-radius: 6px;
+    height: 58px;
+    text-align: center;}
+nav ul{
+     
+    list-style: none; margin: 0 auto; padding: 0;}
+    nav ul ul{
+        
+        display: none; position: absolute; top: 100%; left: 0; width: 100%;  }
+nav ul li{
+     
+    position: relative; float: left; width: 33%; text-align: center ; }
+nav ul li li {
+        
+    position: relative; float: none; width: 100%; border: none;  }
+nav ul li:hover ul{
+        
+    display: block;}
+nav ul li a {
+     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    display: block; text-decoration: none; color: black; padding: 15px 25px; font-size: 1.2em; box-sizing: border-box; border-right: solid transparent;
+    border-left: solid transparent;
+border-radius: 6px;
+font-size: x-large;} 
+nav ul ul li a{
+       /*caselle del menu a tendina*/
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;  border-bottom: solid 2px rgb(0, 0, 0); border-radius: 6px; 
+    border-left: 2px solid black; border-right: 2px solid black; } 
+nav ul ul li:first-child a{
+       
+    border-top: solid 2px rgb(0, 0, 0) ;
+     border-bottom: solid 2px rgb(0, 0, 0);}
+nav ul li:hover a{
+    
+    background:black;/*questo bg è per la scritta dei componenti del menu a tendina*/ color: rgb(117, 221, 134); text-decoration: none ; transition: 0.5s; }
+nav ul li li:hover a{
+    
+    background: #03675d ; color: violet;} 
+nav ul li:hover a{
+
+     
+    background:transparent; color: brown; text-decoration: none ; transition: 0.5s; }
+    #footer1{ background-color: #111;height: 170px; margin:0}
+    #footer1 p{font-family:'Poppins', sans-serif ; font-size: 20px;color: white;text-align: center;padding: 40px; margin: 0;}
+    #footer2{background-color: black;height: 30px;}
+    #footer2 p{color: white;text-align: center; margin: 0; margin-bottom: 0; font-family: 'Times New Roman', Times, serif;}
+    #social{text-align: center;}
+    #tornasu{
+        position: fixed;
+        bottom: 0px;
+        right: 0px;
+        display: none;
+        padding:10px;
+        }
+        #container {
+            margin: 0 auto;
+            max-width: 500px;
+            border: 1px solid transparent;
+            padding: 20px;
+            }
+        
